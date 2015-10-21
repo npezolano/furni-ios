@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (2.0.2)
+  - AlamofireImage (1.1.2):
+    - Alamofire (~> 2.0)
+  - AWSCognito (2.2.7):
+    - AWSCore (= 2.2.7)
+  - AWSCore (2.2.7)
+  - Crashlytics (3.3.4)
+  - Digits (1.12.0)
+  - Fabric (1.5.5):
+    - Fabric/Base (= 1.5.5)
+  - Fabric/Base (1.5.5)
+  - Optimizely-iOS-SDK (1.2.2)
+  - Stripe (5.1.4):
+    - Stripe/Core (= 5.1.4)
+  - Stripe/Core (5.1.4)
+  - TwitterCore (1.12.0)
+  - TwitterKit (1.12.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 2.0)
+  - AlamofireImage (~> 1.0)
+  - AWSCognito
+  - Crashlytics
+  - Digits
+  - Fabric
+  - Optimizely-iOS-SDK
+  - Stripe
+  - TwitterCore
+  - TwitterKit
+
+SPEC CHECKSUMS:
+  Alamofire: 8edbab00802a752bb5240cc2abe70e7e881488ad
+  AlamofireImage: dc3d3de5d095fd9545b144ba8f6da5bfc539512a
+  AWSCognito: f88aa1b969dafc6208d417ebfa18b0f3b3746093
+  AWSCore: d81e1e534040780deb0f3877aaa207d297e54b4c
+  Crashlytics: 41c082440d2e14da444186fff65e79c0b4b35d4c
+  Digits: b443a43657c6cbaa6b31fedddc0e8c15133a978f
+  Fabric: 190bf1a6eb65f7500de1347d027d2e59a7e53db1
+  Optimizely-iOS-SDK: b6f231f0fc6259b732f10bce02bb667805c2f615
+  Stripe: 6864be95b09092f05526bc2e0a50804bc556aa0d
+  TwitterCore: a1feadb793512962003ed2bad23e846c8daa4efd
+  TwitterKit: c27e7b997cd82d5c626fcfd8b1dead1e15dac7ca
+
+COCOAPODS: 0.39.0

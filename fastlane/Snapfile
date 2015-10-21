@@ -1,0 +1,10 @@
+devices([
+  "iPhone 6s",
+  "iPhone 6s Plus"
+])
+
+languages([
+  'en-US'
+])
+
+scheme 'Furni'

@@ -1,0 +1,9 @@
+framework module Optimizely {
+    umbrella header "Optimizely.h"
+    
+    export *
+    module * { export * }
+    
+    link "sqlite3"
+    link "icucore"
+}

@@ -1,0 +1,31 @@
+# Fastlane
+
+desc "Upload a new build of Furni to Beta by Crashlytics"
+lane :beta do
+  gym(scheme: "Furni")
+  crashlytics
+  slack
+end
+
+desc "Ship an update of Furni to the App Store"
+lane :release do
+  # Verify Xcode
+  verify_xcode
+
+  # Create a new version number
+  increment_version_number
+
+  # Build and sign the app
+  cert
+  sigh
+  gym(scheme: "Furni")
+
+  # Generate new screenshots
+  snapshot
+
+  # Upload the app, screenshots and metadata to the App Store
+  deliver
+
+  # Notify Slack
+  slack
+end
